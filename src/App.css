@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Play", sans-serif;
+    background-color: var(--bg);
+}
+ul,
+li {
+    list-style: none;
+}
+li,
+a {
+    cursor: pointer;
+}
+:root{
+    --bg: #1E1E1E;
+    --white: #FFF;
+    --accent: #FF6745;
+    --cardBg: #333;
+    --border: #5F5F5F;
+}
