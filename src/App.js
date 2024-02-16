@@ -1,9 +1,11 @@
 import './App.css';
+import { Faq } from './components/faq/faq';
+
 
 function App() {
   return (
     <>
-      
+      <Faq dataFaq={dataFaq}/>
     </>
   );
 }
