@@ -23,3 +23,21 @@ a {
     --cardBg: #333;
     --border: #5F5F5F;
 }
+
+#hero, #faq{
+    width: min(100% - 20px, 1440px);
+    margin: 0 auto;
+    height: 100vh;
+}
+
+
+
+.faq_arrow{
+    float: right;
+    transition: all 0.7s; 
+}
+
+.faq_arrow.active{
+    transition: all 0.7s;
+    transform: rotateX(180deg);
+}

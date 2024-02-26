@@ -1,11 +1,14 @@
 import './App.css';
 import { Faq } from './components/faq/faq';
+import Contact from './components/сontact-us/contact-us';
+
 
 
 function App() {
   return (
     <>
       <Faq dataFaq={dataFaq}/>
+      <Contact/>
     </>
   );
 }

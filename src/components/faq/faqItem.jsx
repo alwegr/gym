@@ -8,7 +8,7 @@ export const FaqItem = ({dataFaq, onClick, isOpen}) => {
     return (
         <>
             <div className={style.wrapper}>
-                <li>
+                <li className={style.faq_item}>
                     <button className={style.header} onClick={() => onClick()}>
                         <CrossOpen className={`faq_arrow ${isOpen ? "active" : ""}`}/>
                         <div>
