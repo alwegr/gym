@@ -2,7 +2,7 @@
     max-width: 1272px;
     margin: 0 auto;
 } */
-.wrapper {
+.wrapper_faq {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
 .faq_item{
     margin-bottom: 20px;
 }
-button{
+.header{
     position: relative;
     max-width: 1272px;
     padding: 30px 24px;

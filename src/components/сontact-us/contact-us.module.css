@@ -1,0 +1,26 @@
+.wrapper_contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    gap: 24px;
+}
+.form_box{
+    max-width: 516px;
+}
+input[type=text],
+input[type=tel]{
+    width: 100%;
+    padding: 20px 24px;
+    background-color: var(--cardBg);
+    outline: none;
+    border: none;
+}
+.contact_button{
+    width: 100%;
+    background-color: var(--accent);
+    padding: 20px 24px;
+}
+a{
+    color: var(--accent);
+}
+ 

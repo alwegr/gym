@@ -24,13 +24,11 @@ a {
     --border: #5F5F5F;
 }
 
-#hero, #faq{
+#hero, #faq, #contact{
     width: min(100% - 20px, 1440px);
     margin: 0 auto;
-    height: 100vh;
+    padding: 120px 64px;
 }
-
-
 
 .faq_arrow{
     float: right;

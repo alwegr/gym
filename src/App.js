@@ -1,6 +1,7 @@
 import './App.css';
 import { Faq } from './components/faq/faq';
-import Contact from './components/сontact-us/contact-us';
+import { Contact } from './components/сontact-us/contact-us';
+
 
 
 
