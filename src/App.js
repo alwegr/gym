@@ -1,5 +1,6 @@
 import './App.css';
 import { Faq } from './components/faq/faq';
+import Schedule from './components/schedule/schedule';
 import { Contact } from './components/сontact-us/contact-us';
 
 
@@ -8,6 +9,7 @@ import { Contact } from './components/сontact-us/contact-us';
 function App() {
   return (
     <>
+      <Schedule/>
       <Faq dataFaq={dataFaq}/>
       <Contact/>
     </>

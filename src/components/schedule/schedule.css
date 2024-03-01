@@ -1,0 +1,17 @@
+table {
+    border: 1px solid var(--border);
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+thead {
+    background-color: var(--cardBg);
+}
+
+th {
+    width: 212px;
+    padding: 16px 30px;
+    border: 1px solid var(--border);
+    color: var(--white);
+}

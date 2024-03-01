@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body {
     font-family: "Play", sans-serif;
     background-color: var(--bg);
 }
@@ -16,26 +16,40 @@ li,
 a {
     cursor: pointer;
 }
-:root{
+input,
+textarea {
+    border: none;
+    outline: none;
+}
+:root {
     --bg: #1E1E1E;
     --white: #FFF;
     --accent: #FF6745;
     --cardBg: #333;
     --border: #5F5F5F;
 }
-
-#hero, #faq, #contact{
-    width: min(100% - 20px, 1440px);
+h2 {
+    color: var(--white);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    margin-bottom: 56px;
+    text-transform: uppercase;
+}
+#hero,
+#faq,
+#contact,
+#schedule {
+    width: min(100% - 30px, 1440px);
     margin: 0 auto;
-    padding: 120px 64px;
+    padding: 120px 0 64px 0;
 }
-
-.faq_arrow{
+.faq_arrow {
     float: right;
-    transition: all 0.7s; 
+    transition: all 0.7s;
 }
-
-.faq_arrow.active{
+.faq_arrow.active {
     transition: all 0.7s;
     transform: rotateX(180deg);
 }

@@ -1,19 +1,28 @@
+
 .wrapper_contact{
     display: flex;
     justify-content: center;
     align-items: center;    
     gap: 24px;
+    flex-wrap: wrap;
 }
 .form_box{
-    max-width: 516px;
+    width: 516px;
 }
 input[type=text],
 input[type=tel]{
     width: 100%;
     padding: 20px 24px;
     background-color: var(--cardBg);
-    outline: none;
-    border: none;
+    margin-bottom: 20px;
+}
+textarea[type=text]{
+    width: 100%;
+    padding: 20px 24px;
+    background-color: var(--cardBg);
+}
+.checkbox{
+    margin: 24px 0;
 }
 .contact_button{
     width: 100%;
@@ -24,3 +33,11 @@ a{
     color: var(--accent);
 }
  
+
+/* левая сторона карта */
+.container_map{
+    max-width: 732px;
+}
+.container_map img{
+    width: 100%;
+}
